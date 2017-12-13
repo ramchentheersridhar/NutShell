@@ -1,0 +1,16 @@
+Update and upgrade Termux:
+  $ apt update && apt upgrade
+Install some core utilities, Vim and Node.js:
+  $ apt install coreutils
+  $ apt install vim
+  $ apt install nodejs
+Create a directory called test-node and move into it:
+  $ mkdir test-node && cd test-node
+Create an empty file called server.js:
+  $ touch server.js
+Interactively create a package.json file:
+  $ npm init
+Add some content to server.js:
+  $ echo “console.log(‘This is Node.js running on Android.’)” > server.js
+Run node:
+  $ node server.js
